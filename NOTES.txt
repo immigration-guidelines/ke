@@ -1,0 +1,46 @@
+Kenya - published guidance for officials deciding immigration, citizenship and refugee cases
+Checked 2026-11-15. Re-run: python3 download_ke.py (from the folder above this one).
+
+Result in one paragraph
+Kenya publishes no guidance written for its decision-makers. The Directorate of Immigration
+Services publishes service charters, application checklists and forms; the Department of
+Refugee Services publishes laws, a service guide and FAQs for refugees, and plans and reports.
+What exists of the working rules is in legislation. Two procedural acts were saved: the
+Refugees (General) Regulations 2024, which lay down reception, registration and the refugee
+status determination process applied by the Department, and the rules of procedure of the
+refugee appeal body (Refugees (Appeal Rules of Procedure) Regulations 2017, in a reviewed text
+published by the body itself). The Kenya Citizenship and Immigration Regulations 2012, which
+govern permits and passes, could not be obtained: the only official online text is on Kenya
+Law, whose robots.txt excludes AI agents.
+
+What is in this folder (index.tsv)
+- procedural act, official (2): Refugees (General) Regulations 2024 (Legal Notice No. 39,
+  60 pages); Refugees (Appeal Rules of Procedure) Regulations 2017, reviewed text (30 pages,
+  file dated September 2023).
+No item of kind "guidance". 2 PDF files, 0.9 MB.
+
+Sources checked
+- https://immigration.go.ke/ (robots.txt allows the site; it also carries injected spam links):
+  home page, work permits and passes pages, PDF media list (/wp-json/wp/v2/media: two
+  service charters), and the web archive's list of PDFs on the domain since 2006 (checklists,
+  forms, passport delivery lists, questionnaires, the Act). fns.immigration.go.ke (no
+  robots.txt) appears only in the archive with checklists.
+- https://refugee.go.ke/ (Department of Refugee Services; robots.txt allows /sites/): sitemap,
+  Acts/Regulations/Policies, Downloads, Resources, Service Charter, RSD and Documentation
+  pages. Documents are the laws, the 2024 Regulations, Shirika Plan papers, the Refugee Service
+  Guide (2026, for applicants), FAQs, camp-visit permit instructions and notices.
+- https://refugeeappeals.go.ke/ (robots.txt allows /sites/): home, Downloads, Appeal Process.
+- https://borders.etakenya.go.ke/ (no robots.txt): border management fact sheets and the 2023
+  amendment to the 2012 Regulations (ETA, API/PNR; left out, see not-obtained.tsv).
+- https://interior.go.ke/: robots.txt address returns the site's HTML shell; not used further.
+- https://citizenshiprightsafrica.org/: its pages on the 2012 Regulations link only to Kenya Law.
+
+Refusals and exclusions met
+- kenyalaw.org / new.kenyalaw.org: robots.txt names AI agents and sets "Content-Signal:
+  ai-input=no"; not used. This is why the 2012 Regulations are missing.
+- www.refworld.org and webarchive.archive.unhcr.org: robots.txt answered HTTP 403; not used.
+
+Completeness
+- Directorate of Immigration Services procedure manuals, work-permit class guidelines and
+  Department of Refugee Services RSD standard operating procedures were searched for on both
+  sites and in the web archive; none is published.
